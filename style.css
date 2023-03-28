@@ -1,0 +1,45 @@
+.container {
+    margin-top: 50px;
+  }
+  
+  #weatherOutput {
+    margin-top: 50px;
+  }
+  
+  footer {
+    padding-top: 5px;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .weather-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-col {
+    flex: 1;
+    font-size: 24px;
+  }
+  
+  .right-col {
+    flex: 1;
+    text-align: right;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .right-col img {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+  }
+  

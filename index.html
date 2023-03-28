@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A.K Weather</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">A.K Weather</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container mt-3">
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <form id="weatherForm">
+              <div class="form-group">
+                <label for="locationInput">Enter Location:</label>
+                <input type="text" class="form-control" id="locationInput" placeholder="Enter location">
+              </div>
+              <button type="submit" class="btn btn-primary">Get Weather</button>
+            </form>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-6 mx-auto">
+            <div id="weatherOutput"></div>
+          </div>
+        </div>
+      </div>
+
+  <footer class="bg-dark text-center text-lg-start">
+    <div class="text-center p-3">
+      Made by Aarush Kharkwal
+    </div>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
